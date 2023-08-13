@@ -1,7 +1,8 @@
 import './Hero.scss'
 import Header from "../Header/Header"
 import Vector from '../../assets/Vector 1.svg'
-import Ellipse from '../../assets/Ellipse 619.svg'
+import Ellipse1 from '../../assets/Ellipse 619.svg'
+import Ellipse2 from '../../assets/Ellipse 620.png'
 import Bars from '../../assets/Group 1000001689.svg'
 import Dropdown from '../../assets/Vector.svg'
 
@@ -55,12 +56,18 @@ function Hero() {
                     <img src={User5} alt="" />
                     <img src={User6} alt="" />
                     <img src={User7} alt="" />
+                    <p>+</p>
                 </div>
                 <p>2,500 people booked Tommorowland Event in last 24 hours</p>
             </div>
-            <div>
-                <div>
-                    <img src={Ellipse} alt="" />
+            <div className='scroll'>
+                <div className='ellipse'>
+                    <div className="e1">
+                        <img src={Ellipse2} alt="" />
+                    </div>
+                    <div className="e2">
+                        <img src={Ellipse1} alt="" />
+                    </div>
                     <p>Scroll</p>
                 </div>
                 <img src={Bars} alt="" />

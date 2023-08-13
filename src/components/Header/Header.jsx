@@ -27,7 +27,7 @@ function Header() {
             <li>Upcomming Packages</li>
         </ul>    
       </div>
-      <div>
+      <div className='btn'>
         <p>Get in Touch</p>
       </div>
     </div>
