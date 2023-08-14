@@ -16,9 +16,9 @@ function Header() {
         <ul className='nav-ul'>
             <li>Home</li>
             <li>About</li>
-            <li>services <img src={Dropdown} alt="dropdown" />
+            <li className='dropdown-container'>services <img src={Dropdown} alt="dropdown" />
                 <ul className="dropdown">
-                    <li>Honeymoon</li>
+                    <li>Honeymoon Packages</li>
                     <li>Tours Packages</li>
                     <li>Musical Events</li>
                     <li>Build package</li>

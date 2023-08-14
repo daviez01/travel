@@ -36,7 +36,7 @@ function Hero() {
                     <p>Where to?</p>
                     <img src={Bar} alt="" />
                 </div>
-                <div className='options'>
+                <div className='options travel'>
                     <p>Travel Type <img src={Dropdown} alt="" /></p>
                     <img src={Bar} alt="" />
                 </div>

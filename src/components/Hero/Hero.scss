@@ -25,7 +25,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #F3F3F399;
+        border-radius: 5.224px;
+        background-color: rgba(243, 243, 243, 0.60);
+        backdrop-filter: blur(17.760618209838867px);
         height: 5.5rem;
         width: 50rem;
         padding: 0.5rem;
@@ -43,6 +45,13 @@
                 display: flex;
                 justify-content: space-between;
                 width: 10rem;
+            }
+        }
+
+        .options.travel {
+
+            img {
+                margin: 0 25px;
             }
         }
 
